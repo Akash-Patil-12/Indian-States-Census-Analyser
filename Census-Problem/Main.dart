@@ -1,3 +1,6 @@
+import 'StateCensusAnalyser.dart';
+
 void main() {
-  print('Welcome in indian states census problem');
+  var stateCensusInfo = StateCensusAnalyser();
+  stateCensusInfo.ReadFileData();
 }
